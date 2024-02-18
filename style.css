@@ -1,0 +1,121 @@
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+body {
+    background-color: #51000E !important;
+}
+
+.card {
+    background-color: rgb(120, 18, 29) !important;
+    border: 3px solid black !important;
+    color: rgb(222,216, 155) !important;
+}
+
+.aranySzoveg {
+    color: rgb(222,216, 155) !important;
+}
+
+.card {
+    /* box-shadow: rgba(195, 185, 0, 0.35) 0px 7px 29px 0px; */
+    /* box-shadow: rgba(195, 185, 0, 0.35) 0px 10px 25px; */
+}
+
+.btn-primary {
+    background-color: rgb(143,122,80) !important;
+    border-color: rgb(143,122,80) !important;
+    color: black !important;
+}
+
+.card-header {
+    background-color: rgb(143,122,80) !important;
+    color: black !important;
+}
+
+.dropdown-menu {
+    background-color: rgb(143,122,80) !important;
+}
+
+.bg-custom {
+    background-color: rgb(143,122,80) !important;
+    border: none, !important;;
+}
+
+.kep {
+    border-radius: 15px !important;
+    border: 2px solid black !important;
+}
+
+.ember-kep {
+    position: absolute;
+    right: 0;
+    top: -30px !important;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 50%;
+}
+
+#szemelyek {
+    margin-top: 100px;
+}
+
+.sotet {
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+    top: 0;
+}
+
+#rovidszoveg {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.custom-list-item {
+    list-style: none;
+    position: relative;
+    line-height: 1.5;
+}
+
+.custom-list-item::before {
+    content: "§";
+    position: absolute;
+    left: -25px; /* Elmozdítjuk a "§" karaktert a balra, hogy ne ütközzön a kártya keretével */
+}
+
+.mt-md-5 {
+    margin-bottom: 150px !important;
+}
+
+.kozepre {
+    /* középre igazítás vízszintesen */
+    margin-left: auto;
+    margin-right: auto;
+    /* középre igazítás függőlegesen */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Media query az 768px feletti képernyőkhöz */
+@media (min-width: 768px) {
+    .egyedi-nagy{
+        height: 550px;
+    }
+
+    .egyedi-jobb{
+        position: absolute;
+        left: 15vw;
+        top: 10vh;
+    }
+    
+    .egyedi-bal{
+        position: absolute;
+    }
+}
+
+.btn-primary a {
+    color: black; /* Fekete szín */
+    text-decoration: none; /* Aláhúzás eltávolítása */
+}
